@@ -1,0 +1,12 @@
+*.ipynb
+.env
+model.pkl
+*.pkl
+.venv
+.model1
+rofile_default/
+ipython_config.py
+.ipynb_checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
