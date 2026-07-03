@@ -17,7 +17,7 @@ class DiabetesInput(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the Diabetes Prediction API. Use the /predict endpoint to get predictions."}
+    return {"message": "Welcome to the Diabetes Prediction API. Use the /predict endpoint to get predictions(use /docs from swagger UI)"}
 
 @app.post("/predict")
 def predict(data: DiabetesInput):
